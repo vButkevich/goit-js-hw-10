@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TIMER:[goit-js-hw-10]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-10/favicon.svg" />
+    
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/modulepreload-polyfill-3cfb730f.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/vendor-77e16229.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/1-timer-05871a28.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-10/assets/2-snackbar-53a085ad.js"></script>
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/vendor-7a007824.css">
+    <link rel="stylesheet" href="/goit-js-hw-10/assets/index-12c029b8.css">
+  </head>
+  <body>
+    <!-- <a href="./feedback.html">feedback</a> -->
+
+    <!-- <h2>  Timer.countDown</h2> -->
+<h2>Завдання 1 - Таймер зворотного відліку</h2>
+
+
+<input type="text" id="datetime-text" disabled /><br />
+<input type="date" id="datetime-picker" placeholder="Select DateTime..." />
+<button type="button" id="btn-start" data-start disabled>Start</button>
+
+<div class="timer">
+  <div class="field">
+    <span class="value" data-days>00</span>
+    <span class="label">Days</span>
+  </div>
+  <div class="field">
+    <span class="value" data-hours>00</span>
+    <span class="label">Hours</span>
+  </div>
+  <div class="field">
+    <span class="value" data-minutes>00</span>
+    <span class="label">Minutes</span>
+  </div>
+  <div class="field">
+    <span class="value" data-seconds>00</span>
+    <span class="label">Seconds</span>
+  </div>
+</div>
+
+    <!-- <h2>snackbar</h2> -->
+<h2>Завдання 2 - Генератор промісів</h2>
+
+
+<form class="form">
+  <label>
+    Delay (ms)
+    <br /><input
+      type="number"
+      name="delay"
+      id="inputDelay"
+      value="1000"
+      required
+    />
+  </label>
+
+  <fieldset>
+    <legend>State</legend>
+    <label>
+      Fulfilled
+      <input type="radio" name="state" value="fulfilled" required />
+    </label>
+    <label>
+      Rejected
+      <input type="radio" name="state" value="rejected" required />
+    </label>
+  </fieldset>
+
+  <button type="submit">Create notification</button>
+</form>
+
+
+    <div class="beginers">
+      <a
+        href="https://www.youtube.com/watch?v=vt5mq6yZScQ&list=PLFGoYjJG_fqqJC5ODNTPLhv5MUKVkYakh"
+        target="_blank"
+      >
+        <div class="img">
+          <img
+            src="/goit-js-hw-10/assets/javascript-8dac5379.svg"
+            alt="javascript"
+            width="32"
+            height="32"
+          />
+          <span>JS for Beginers</span>
+        </div>
+      </a>
+    </div>
+
+    
+  </body>
+</html>
