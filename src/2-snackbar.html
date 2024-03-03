@@ -1,0 +1,30 @@
+<!-- <h2>snackbar</h2> -->
+<h2>Завдання 2 - Генератор промісів</h2>
+<script src="./js/2-snackbar.js" type="module"></script>
+
+<form class="form">
+  <label>
+    Delay (ms)
+    <br /><input
+      type="number"
+      name="delay"
+      id="inputDelay"
+      value="1000"
+      required
+    />
+  </label>
+
+  <fieldset>
+    <legend>State</legend>
+    <label>
+      Fulfilled
+      <input type="radio" name="state" value="fulfilled" required />
+    </label>
+    <label>
+      Rejected
+      <input type="radio" name="state" value="rejected" required />
+    </label>
+  </fieldset>
+
+  <button type="submit">Create notification</button>
+</form>

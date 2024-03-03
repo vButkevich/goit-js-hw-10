@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+#inputDelay {
+  height: 32px;
+  width: var(--width, 240px);
+  /* border-radius: 2px; */
+  padding-left: 8px;
+  font-size: 28px;
+}
+
+fieldset {
+  width: var(--width, 240px);
+  border-radius: 4px;
+  margin-bottom: 8px;
+  margin-left: 0;
+}
+button {
+  padding: 0 8px;
+}
+button[type='submit'] {
+  width: var(--width, 240px);
+  padding: 4px;
+}
